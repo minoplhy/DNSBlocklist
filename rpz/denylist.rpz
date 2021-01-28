@@ -18,13 +18,21 @@ graph.fbpigeon.com CNAME .
 
 ; Will broke some sites/app
 *.tencent.com CNAME .
+tencent.com CNAME .
 *.baidu.com CNAME .
+baidu.com CNAME .
 *.tencent.cn CNAME .
+tencent.cn CNAME .
 *.tiktok.com CNAME .
+tiktok.com CNAME .
 *.qq.com CNAME .
+qq.com CNAME .
 *.mail.ru CNAME .
+mail.ru CNAME .
 *.vivo.com.cn CNAME .
+vivo.com.cn CNAME .
 *.vivoglobal.com CNAME .
+vivoglobal.com CNAME .
 
 ; Express vpn folk
 *.get-express-vpn.com CNAME .
