@@ -1,4 +1,5 @@
-; start!
+; Minop
+; ----------------VV
 in-os-config-appstore.vivoglobal.com CNAME .
 asia-vcode-od.vivoglobal.com CNAME .
 excfgfile-vivofs-asia.vivo.com.cn CNAME .
