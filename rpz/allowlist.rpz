@@ -16,3 +16,4 @@ blueangelhost.com CNAME rpz-passthru.
 *.blueangelhost.com CNAME rpz-passthru.
 markmonitor.com CNAME rpz-passthru.
 *.markmonitor.com CNAME rpz-passthru.
+js.braintreegateway.com CNAME rpz-passthru.
