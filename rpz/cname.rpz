@@ -16,7 +16,7 @@ eulerian.net CNAME .
 at-o.net CNAME .
 *.at-o.net CNAME .
 
-# Keyade
+; Keyade
 k.keyade.com CNAME .
 *.k.keyade.com CNAME .
 
