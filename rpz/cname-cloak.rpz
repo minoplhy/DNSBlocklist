@@ -29,15 +29,19 @@ sc.adobedc.net CNAME .
 sc.omtrdc.net CNAME .
 *.sc.omtrdc.net CNAME .
 
-# Criteo
-dnsdelegation.io
-storetail.io
+; Criteo
+dnsdelegation.io CNAME .
+*.dnsdelegation.io CNAME .
+storetail.io CNAME .
+*.storetail.io CNAME .
 
-# Commanders Act
-tagcommander.com
+; Commanders Act
+tagcommander.com CNAME .
+*.tagcommander.com CNAME .
 
-# Wizaly
-wizaly.com
+; Wizaly
+wizaly.com CNAME .
+*.wizaly.com CNAME .
 
 # TraceDock
 a351fec2c318c11ea9b9b0a0ae18fb0b-1529426863.eu-central-1.elb.amazonaws.com
