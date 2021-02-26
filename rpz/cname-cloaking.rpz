@@ -60,7 +60,7 @@ affex.org CNAME .
 
 ; intent (intent.com)
 partner.intentmedia.net CNAME .
-*.parter.intenmedia.net CNAME .
+*.partner.intentmedia.net CNAME .
 
 ; Webtrekk
 webtrekk.net CNAME .
