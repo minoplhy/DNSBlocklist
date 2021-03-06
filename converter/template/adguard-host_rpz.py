@@ -2,8 +2,8 @@ import os
 from re import sub
 from shutil import copyfile
 
-infile = "adg.txt"
-outfile = "adg.rpz"
+infile = some.txt
+outfile = some.rpz
 
 f = open(infile,'r')
 a = ['||','^']
@@ -26,15 +26,16 @@ for i in range(len(file)):
 #print(file)
 with open(infile, 'w') as f1:
     f1.writelines(["%s\n" % item  for item in file])
-	
+f.close()	
 
-# thanks someone on StackOverFlow
-
+# thanks StackOverFlow
 with open(infile, 'r') as f: # load file 
  lines = f.read().splitlines() # read lines
 with open(infile, 'w') as f: # load file in write mode
-   f.write('\n'.join([line + '  CNAME .' for line in lines if not line.startswith(';')])) # add CNAME . if file does not start with ;
-      
+ for line in lines:
+  if not line.startswith(';'):
+   f.write('\n'.join([line + '  CNAME .\n'])) # add CNAME . if file does not start with ;
+f.close()
 copyfile(infile, outfile)
 os.remove(infile)
 # end
