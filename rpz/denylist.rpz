@@ -15,6 +15,7 @@ platform.instagram.com CNAME .
 alb.reddit.com CNAME .
 s.reddit.com CNAME .
 graph.fbpigeon.com CNAME .
+matomo.1984.is CNAME .
 
 ; Will break some sites/app
 *.tencent.com CNAME .
