@@ -29,7 +29,6 @@ with open(infile, 'w') as f1:
     f1.writelines(["%s\n" % item  for item in file])
 f.close()	
 
-# thanks StackOverFlow
 with open(infile, 'r') as f: # load file 
  lines = f.read().splitlines() # read lines
 with open(infile, 'w') as f: # load file in write mode
@@ -37,6 +36,7 @@ with open(infile, 'w') as f: # load file in write mode
   if not line.startswith(';'):
    f.write('\n'.join([line + '  CNAME .\n'])) # add CNAME . if file does not start with ;
 f.close()
-copyfile(infile, outfile)
-os.remove(infile)
-# end
+copyfile(infile, outfile) # copy input file to output file
+os.remove(infile) # remove input file
+
+exit()
