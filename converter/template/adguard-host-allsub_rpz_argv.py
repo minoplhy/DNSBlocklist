@@ -37,7 +37,8 @@ with open(infile, 'w') as f: # load file in write mode
    f.write('\n'.join([line + '\n']))
   elif not line.startswith(';'):
    f.write('\n'.join([line + '\n'])) and f.write('\n'.join(['*.'+line+'\n'])) # add *. and CNAME . if file does not start with ;   
-   
+f.close()
+
 with open(infile, 'r') as f: # load file 
  lines = f.read().splitlines() # read lines
 with open(infile, 'w') as f: # load file in write mode
