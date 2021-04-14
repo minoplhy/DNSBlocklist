@@ -36,7 +36,7 @@ with open(infile, 'w') as f: # load file in write mode
   if line.startswith(';'):
    f.write('\n'.join([line + '\n']))
   elif not line.startswith(';'):
-   f.write('\n'.join([line + ' CNAME .\n'])) # add CNAME . if file does not start with ;   
+   f.write('\n'.join([line + ' CNAME .\n'])) # add CNAME . if lines does not start with ;   
 f.close()
 
 copyfile(infile, outfile) # copy input file to output file
