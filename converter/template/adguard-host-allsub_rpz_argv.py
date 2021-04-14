@@ -36,18 +36,15 @@ with open(infile, 'w') as f: # load file in write mode
   if line.startswith(';'):
    f.write('\n'.join([line + '\n']))
   elif not line.startswith(';'):
-   f.write('\n'.join(['*.'+line+'\n'])) and f.write('\n'.join([line + ' CNAME .\n'])) # add *. and CNAME . if file does not start with ;   
-f.close()
-
+   f.write('\n'.join([line + '\n'])) and f.write('\n'.join(['*.'+line+'\n'])) # add *. and CNAME . if file does not start with ;   
+   
 with open(infile, 'r') as f: # load file 
  lines = f.read().splitlines() # read lines
 with open(infile, 'w') as f: # load file in write mode
  for line in lines:
   if line.startswith(';'):
    f.write('\n'.join([line + '\n']))
-  elif not line.startswith('*.'):
-   f.write('\n'.join([line + '\n'])) 
-  elif line.startswith('*.'):
+  elif line.startswith('*.') or not line.startswith(';'):
    f.write('\n'.join([line + ' CNAME .\n'])) # add CNAME . if line start with *.
 f.close()
 
