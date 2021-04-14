@@ -11,3 +11,4 @@ adguard-host_rpz_argv.py filein.txt fileout.rpz
 # Up-to-date build
 [CNAME Tracker](https://noblt.sos-ch-dk-2.exoscale-cdn.com/adguard/cname-tracker.rpz)
 [CNAME Original](https://noblt.sos-ch-dk-2.exoscale-cdn.com/adguard/cname-original.rpz)
+[Dns filter](https://noblt.sos-ch-dk-2.exoscale-cdn.com/adguard/dns.rpz)
