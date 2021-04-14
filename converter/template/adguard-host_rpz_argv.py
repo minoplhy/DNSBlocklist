@@ -7,7 +7,7 @@ infile = sys.argv[1]
 outfile = sys.argv[2]
 
 f = open(infile,'r')
-a = ['||','^']
+a = ['||','^','|']
 lst = []
 for line in f:
     for word in a:
@@ -35,8 +35,24 @@ with open(infile, 'w') as f: # load file in write mode
  for line in lines:
   if line.startswith(';'):
    f.write('\n'.join([line + '\n']))
-  elif not line.startswith(';'):
-   f.write('\n'.join([line + ' CNAME .\n'])) # add CNAME . if lines does not start with ;   
+  elif line.startswith('@@'):
+   f.write('\n'.join([line + ' CNAME rpz-passthru.\n']))
+  elif not line.startswith(';') and not line.startswith('@@'):
+   f.write('\n'.join([line + ' CNAME .\n'])) # add CNAME . if file does not start with ;   
+f.close()
+
+f = open(infile,'r')
+a = ['@@']
+lst = []
+for line in f:
+    for word in a:
+        if word in line:
+            line = line.replace(word,'')
+    lst.append(line)
+f.close()
+f = open(infile,'w')
+for line in lst:
+    f.write(line)
 f.close()
 
 copyfile(infile, outfile) # copy input file to output file
