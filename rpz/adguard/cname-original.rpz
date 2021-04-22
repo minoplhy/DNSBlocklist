@@ -31,6 +31,10 @@ sc.adobedc.net CNAME .
 sc.omtrdc.net CNAME .
 *.sc.omtrdc.net CNAME .
 ;
+; Company: Branch.io
+thirdparty.bnc.lt CNAME .
+*.thirdparty.bnc.lt CNAME .
+;
 ; Company: Commanders Act
 tagcommander.com CNAME .
 *.tagcommander.com CNAME .
@@ -44,6 +48,10 @@ storetail.io CNAME .
 ; Company: Eulerian
 eulerian.net CNAME .
 *.eulerian.net CNAME .
+;
+; Company: Fathom
+fathomdns.com CNAME .
+*.fathomdns.com CNAME .
 ;
 ; Company: GENIEE
 genieespv.jp CNAME .
