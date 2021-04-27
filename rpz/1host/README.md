@@ -1,0 +1,11 @@
+# What's this
+This is 1host format Converted to RPZ format
+# How?
+Look at my template /converter/template
+# How to build
+> 1host_rpz_argv.py
+```
+1host_rpz_argv.py filein.txt fileout.rpz
+```
+# Up-to-date build
+[Domains Pro](https://noblt.sos-ch-dk-2.exoscale-cdn.com/1host/domains-pro.rpz)
