@@ -9,4 +9,4 @@ Look at my template /converter/template
 ```
 # Up-to-date build
 [Domains Pro](https://noblt.sos-ch-dk-2.exoscale-cdn.com/1host/domains-pro.rpz) /
-[wildcards Pro](https://noblt.sos-ch-dk-2.exoscale-cdn.com/1host/wildcards-pro.rpz)
+[Wildcards Pro](https://noblt.sos-ch-dk-2.exoscale-cdn.com/1host/wildcards-pro.rpz)
