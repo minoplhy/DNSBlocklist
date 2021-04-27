@@ -7,15 +7,12 @@ $TTL 6h
 exappupgrade.vivoglobal.com CNAME rpz-passthru.
 sysupgrade-api.vivoglobal.com CNAME rpz-passthru.
 keepass.info CNAME rpz-passthru.
-*.keepass.info CNAME rpz-passthru.
+www.keepass.info CNAME rpz-passthru.
 keepassdx.com CNAME rpz-passthru.
-*.keepassdx.com CNAME rpz-passthru.
 ddos-guard.net CNAME rpz-passthru.
-*.ddos-guard.net CNAME rpz-passthru.
 blueangelhost.com CNAME rpz-passthru.
-*.blueangelhost.com CNAME rpz-passthru.
+www.blueangelhost.com CNAME rpz-passthru.
 markmonitor.com CNAME rpz-passthru.
-*.markmonitor.com CNAME rpz-passthru.
 js.braintreegateway.com CNAME rpz-passthru.
 sos-ch-dk-2.exo.io CNAME rpz-passthru.
 accounts.binance.com CNAME rpz-passthru.
