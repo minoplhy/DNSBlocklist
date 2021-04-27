@@ -8,4 +8,5 @@ Look at my template /converter/template
 1host_rpz_argv.py filein.txt fileout.rpz
 ```
 # Up-to-date build
-[Domains Pro](https://noblt.sos-ch-dk-2.exoscale-cdn.com/1host/domains-pro.rpz)
+[Domains Pro](https://noblt.sos-ch-dk-2.exoscale-cdn.com/1host/domains-pro.rpz) /
+[wildcards Pro](https://noblt.sos-ch-dk-2.exoscale-cdn.com/1host/wildcards-pro.rpz)
