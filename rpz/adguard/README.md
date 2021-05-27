@@ -1,5 +1,5 @@
 # Discontinued
-## The filters in this Directory will not updates anymore . please head to minoplhy/filters-build on [GitHub](https://github.com/minoplhy/DNSBlocklist) or [Gitea](https://git.kylz.nl/GitHub/dnsblocklist)
+## The filters in this Directory will not updates anymore . please head to minoplhy/filters-build on [GitHub](https://github.com/minoplhy/filters-build) or [Gitea](https://git.kylz.nl/GitHub/filters-build)
 # What's this?
 This is Adguard Host format Converted to RPZ format
 # How?
