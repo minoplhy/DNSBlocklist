@@ -1,3 +1,5 @@
+# Discontinued
+## The filters in this Directory will not updates anymore . please head to minoplhy/filters-build on [GitHub](https://github.com/minoplhy/DNSBlocklist) or [Gitea](https://git.kylz.nl/GitHub/dnsblocklist)
 # What's this
 This is 1host format Converted to RPZ format
 # How?
