@@ -7,7 +7,7 @@ infile = sys.argv[1]
 outfile = sys.argv[2]
 
 f = open(infile,'r')
-a = ['0.0.0.0 ','0.0.0.0']
+a = ['0.0.0.0','::1','127.0.0.1','0','::']
 lst = []
 for line in f:
     for word in a:
@@ -37,11 +37,13 @@ with open(infile, 'w') as f: # load file in write mode
    f.write('\n'.join([line + '\n']))
   elif not line.strip():
    f.write('\n'.join([line + '\n']))
-  elif not line.startswith(';') and line.strip():
+  elif line.startswith('-'):
+   f.write('\n'.join([line + '\n']))
+  elif not line.startswith(';') and not line.startswith('-') and line.strip():
    f.write('\n'.join([line + ' CNAME .\n'])) # add CNAME . if file does not start with ;   
 f.close()
 
-remove_words = ['127.0.0.1','255.255.255.255','::1','fe80','ff0']
+remove_words = ['localhost','localhost.localdomain','local','broadcasthost','loopback','ip6-localnet','ip6-mcastprefix','ip6-allnodes','ip6-allrouters','ip6-allhosts']
 
 with open(infile, 'r') as f:
   lines = f.read().splitlines()
