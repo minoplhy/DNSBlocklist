@@ -25,6 +25,7 @@ asia-sysupgrade-api.vivoglobal.com CNAME rpz-passthru.
 asia-st-sysupgrade.vivoglobal.com CNAME rpz-passthru.
 asia-sysupawdl.vivoglobal.com CNAME rpz-passthru.
 asia-sysupakdl.vivoglobal.com CNAME rpz-passthru.
+asia-sysupwsdl.vivoglobal.com CNAME rpa-passthru.
 profile.line-scdn.net CNAME rpz-passthru.
 log-upload-os.mihoyo.com CNAME rpz-passthru.
 stat.ripe.net CNAME rpz-passthru.
