@@ -31,4 +31,4 @@ log-upload-os.mihoyo.com CNAME rpz-passthru.
 stat.ripe.net CNAME rpz-passthru.
 webcrawler.com CNAME rpz-passthru.
 www.webcrawler.com CNAME rpz-passthru.
-0.tcp.ap.ngrok.io:13986 CNAME rpz-passthru.
+0.tcp.ap.ngrok.io CNAME rpz-passthru.
