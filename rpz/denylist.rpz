@@ -84,7 +84,12 @@ qgepodownload.mediatek.com CNAME .
 
 ; Parked domain CNAME
 parkingcrew.net CNAME .
+*.parkingcrew.net CNAME .
 sedoparking.com CNAME .
+*.sedoparking.com CNAME .
 bodis.com CNAME .
+*.bodis.com CNAME .
 comingsoon.namebright.com CNAME .
+*.comingsoon.namebright.com CNAME .
 expired.namebright.com CNAME .
+*.expired.namebright.com CNAME .
