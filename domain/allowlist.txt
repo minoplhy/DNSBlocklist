@@ -32,3 +32,4 @@ logme.in
 accounts.logme.in 
 toschool.in 
 obs.line-scdn.net.edgekey.net
+edgekey.net
