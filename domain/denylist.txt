@@ -19,32 +19,20 @@ graph.fbpigeon.com
 matomo.1984.is 
 userlocation.googleapis.com 
 
-# Will break some sites/app
-*.tencent.com 
+# Will break some sites/app 
 tencent.com 
-*.baidu.com 
 baidu.com 
-*.tencent.cn 
 tencent.cn 
-*.tiktok.com 
 tiktok.com 
-*.qq.com 
 qq.com 
-*.mail.ru 
 mail.ru 
-*.vivo.com.cn 
 vivo.com.cn 
-*.vivoglobal.com 
 vivoglobal.com 
 
 # Express vpn folk
-*.get-express-vpn.com 
 get-express-vpn.com 
-*.get-express-vpn.org 
 get-express-vpn.org 
-*.get-express-vpn.net 
 get-express-vpn.net 
-*.get-express-vpn.xyz 
 get-express-vpn.xyz 
 
 # qq related
@@ -85,12 +73,7 @@ qgepodownload.mediatek.com
 
 # Parked domain CNAME
 parkingcrew.net 
-*.parkingcrew.net 
-sedoparking.com 
-*.sedoparking.com 
+sedoparking.com  
 bodis.com 
-*.bodis.com 
 comingsoon.namebright.com 
-*.comingsoon.namebright.com 
 expired.namebright.com 
-*.expired.namebright.com 
