@@ -33,3 +33,4 @@ accounts.logme.in
 toschool.in 
 obs.line-scdn.net.edgekey.net
 edgekey.net
+www.getmonero.org

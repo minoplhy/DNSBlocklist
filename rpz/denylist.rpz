@@ -18,6 +18,8 @@ s.reddit.com CNAME .
 graph.fbpigeon.com CNAME .
 matomo.1984.is CNAME .
 userlocation.googleapis.com CNAME .
+ccleaner.org CNAME .
+*.ccleaner.org CNAME .
 
 ; Will break some sites/app
 *.tencent.com CNAME .

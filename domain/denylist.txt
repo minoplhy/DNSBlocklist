@@ -18,6 +18,7 @@ s.reddit.com
 graph.fbpigeon.com 
 matomo.1984.is 
 userlocation.googleapis.com 
+ccleaner.org
 
 # Will break some sites/app 
 tencent.com 
