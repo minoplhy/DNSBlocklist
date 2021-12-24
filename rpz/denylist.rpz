@@ -96,3 +96,11 @@ comingsoon.namebright.com CNAME .
 *.comingsoon.namebright.com CNAME .
 expired.namebright.com CNAME .
 *.expired.namebright.com CNAME .
+
+; Interesting
+location.services.mozilla.com CNAME .
+*.location.services.mozilla.com CNAME .
+asia-st-sl.vivoglobal.com CNAME .
+*.asia-st-sl.vivoglobal.com CNAME .
+obs.line-scdn.net CNAME .
+*.obs.line-scdn.net CNAME .
